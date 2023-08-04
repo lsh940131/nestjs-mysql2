@@ -1,0 +1,19 @@
+{
+  "name": "nestjs-mysql2",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsh940131/nestjs-mysql2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lsh940131/nestjs-mysql2/issues"
+  },
+  "homepage": "https://github.com/lsh940131/nestjs-mysql2#readme"
+}
