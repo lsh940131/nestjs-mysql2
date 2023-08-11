@@ -1,9 +1,9 @@
-import { DynamicModule, Global, Module, Provider, Type } from "@nestjs/common";
+import { Global, Module, DynamicModule, Provider, Type } from '@nestjs/common';
 
-import { MYSQL_MODULE_OPTIONS } from "./mysql.constants";
-import { IOptions, IMysqlOptions, IMysqlAsyncOptions, IMysqlOptionsFactory } from "./interfaces/config.interface";
-import { MysqlProvider } from "./mysql.provider";
-import { getToken } from "./mysql.util";
+import { MYSQL_MODULE_OPTIONS } from './common/mysql.constants';
+import { IOptions, IMysqlOptions, IMysqlAsyncOptions, IMysqlOptionsFactory } from './interface/config.interface';
+import { MysqlProvider } from './mysql.provider';
+import { getToken } from './common/mysql.util';
 
 @Global()
 @Module({})

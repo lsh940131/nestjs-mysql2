@@ -1,5 +1,5 @@
-import { Injectable } from "@nestjs/common";
-import { PoolConnection } from "mysql2/promise";
+import { Injectable } from '@nestjs/common';
+import { PoolConnection } from 'mysql2/promise';
 
 @Injectable({ scope: 2 })
 export class Transaction {

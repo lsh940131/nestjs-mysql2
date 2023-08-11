@@ -1,3 +1,3 @@
-export * from "./mysql.module";
-export * from "./mysql.provider";
-export * from "./mysql.decorator";
+export * from './lib/mysql.module';
+export * from './lib/mysql.provider';
+export * from './lib/mysql.decorator';

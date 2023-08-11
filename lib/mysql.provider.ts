@@ -1,7 +1,7 @@
-import { Injectable, OnApplicationShutdown } from "@nestjs/common";
-import { Pool, PoolConnection, createPool } from "mysql2/promise";
-import { Transaction } from "./mysql.transaction";
-import { IOptions, ITransaction } from "./interfaces";
+import { Injectable, OnApplicationShutdown } from '@nestjs/common';
+import { Pool, PoolConnection, createPool } from 'mysql2/promise';
+import { Transaction } from './mysql.transaction';
+import { IOptions, ITransaction } from './interface';
 
 @Injectable()
 export class MysqlProvider implements OnApplicationShutdown {
